@@ -21,7 +21,7 @@ function SearchBar({
               checked={inStockOnly} 
               name="inStock" 
               id="inStock" 
-              className='mr-2'
+              className='mr-2 cursor-pointer'
               onChange={(e) => onInStockOnlyChange(e.target.checked)}
            />
             <label htmlFor="inStock" className='text-md font-bold'>Only show products in stock</label>
